@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>YourBeauty</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header class="header">
+   <a href="#" class="logo">Y<span>Beauty</span></a>
+   <nav class="navbar">
+      <a href="#home">Inicio</a>
+      <a href="#about">Sobre Nós</a>
+      <a href="#services">Serviços</a>
+      <a href="#projects">Clientes</a>
+      <a href="#pricing">Planos</a>
+      <a href="#contact">Cadastro</a>
+      <a href="#blogs">Instagram</a>
+   </nav>
+   <div class="icons">
+      <div id="menu-btn" class="fas fa-bars"></div>
+      <div id="info-btn" class="fas fa-info-circle"></div>
+      <div id="search-btn" class="fas fa-search"></div>
+      <div id="login-btn" class="fas fa-user"></div>
+   </div>
+   <form action="" class="search-form">
+      <input type="search" name="" placeholder="search here..." id="search-box">
+      <label for="search-box" class="fas fa-search"></label>
+   </form>
+   <form action="" class="login-form">
+      <h3> Conta </h3>
+      <input type="email" placeholder="digite seu email" class="box">
+      <input type="password" placeholder="digite sua senha" class="box">
+      <div class="flex">
+         <input type="checkbox" name="" id="remember-me">
+         <label for="remember-me">Lembrar-me</label>
+         <a href="#">Esqueceu sua senha?</a>
+      </div>
+      <input type="submit" value="Entrar" class="btn">
+      <p>não possui conta? <a href="#">crie agora!</a></p>
+   </form>
+
+</header>
+<div class="contact-info">
+   <div id="close-contact-info" class="fas fa-times"></div>
+   <div class="info">
+      <i class="fas fa-phone"></i>
+      <h3>Telefone</h3>
+      <p>+55 315648354203</p>
+      <p>+55 311684778916</p>
+   </div>
+   <div class="info">
+      <i class="fas fa-envelope"></i>
+      <h3>Email</h3>
+      <p>yourbeauty@gmail.com</p>
+      <p>centralyourbeuaty@gmail.com</p>
+   </div>
+   <div class="info">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>Endereço</h3>
+      <p>Minas Gerais</p>
+   </div>
+   <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+   </div>
+</div>
+
+<section class="home" id="home">
+   <div class="swiper home-slider">
+      <div class="swiper-wrapper">
+         <section class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+            <div class="content">
+               <h3>A revolução da beleza</h3>
+               <p>Revolucionar o mercado da beleza, promovendo bem-estar com atendimento personalizado e diferenciado, prestando serviços de qualidade, tornando a vida das pessoas mais prática.</p>
+               <a href="#about" class="btn">Conhecer</a>
+            </div>
+         </section>
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <h3>Beleza e bem-estar</h3>
+               <p>Escolha o procedimento conforme a sua necessidade no conforto da sua casa!</p>
+               <a href="#about" class="btn">Conhecer</a>
+            </div>
+         </section>
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+            <div class="content">
+               <h3>Seja uma profissional da YBeauty</h3>
+               <p>Faça seu cadastro e seja um de nossos profissionais conhecidos por todo território nacional.</p>
+               <a href="#about" class="btn">Conhecer</a>
+            </div>
+         </section>
+
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+   </div>
+</section>
+
+<section class="about" id="about">
+   <h1 class="heading"> Sobre Nós </h1>
+   <div class="row">
+      <div class="video">
+         <video src="images/about-vid.mp4" loop muted autoplay></video>
+      </div>
+      <div class="content">
+         <h3>Revolução da beleza com praticidade!</h3>
+         <p>Y Beauty, fundada em 2022, oferece em sua plataforma serviços de beleza personalizados para a atual sociedade moderna. Os serviços podem ser solicitados pelo site ou aplicativo, são realizados no local de sua preferência por profissionais qualificados e sempre atualizados com as novas tendências.
+         </p>
+         <a href="#services" class="btn">Saiba mais</a>
+      </div>
+   </div>
+   <div class="box-container">
+      <div class="box">
+         <h3>10+</h3>
+         <p>serviços ofertados</p>
+      </div>
+      <div class="box">
+         <h3>1500+</h3>
+         <p>profissionais cadastrados</p>
+      </div>
+      <div class="box">
+         <h3>790+</h3>
+         <p>clientes satisifeitos</p>
+      </div>
+      <div class="box">
+         <h3>450+</h3>
+         <p>opções de atendimento</p>
+      </div>
+   </div>
+</section>
+
+<section class="services" id="services">
+   <h1 class="heading"> Nossos serviços </h1>
+   <div class="box-container">
+      <div class="box">
+         <img src="images/service-1.png" alt="">
+         <h3>Unhas</h3>
+         <p>Manicure, pedicure, unhas de gel, alongamento entre outros</p>
+      </div>
+      <div class="box">
+         <img src="images/service-2.png" alt="">
+         <h3>Massagem</h3>
+         <p>Massagem relaxante, modeladora entre outros</p>
+      </div>
+      <div class="box">
+         <img src="images/service-3.png" alt="">
+         <h3>Maquiagem</h3>
+         <p>Maquiagem para noivas, formandos, profissionais e muito mais</p>
+      </div>
+      <div class="box">
+         <img src="images/service-4.png" alt="">
+         <h3>Cabelos</h3>
+         <p>Escova, corte, hidratação, penteados e muito mais</p>
+      </div>
+      <div class="box">
+         <img src="images/service-5.png" alt="">
+         <h3>Estética</h3>
+         <p>Limpeza de pele, botox, procedimentos esteticos e muito mais</p>
+      </div>
+      <div class="box">
+         <img src="images/service-6.png" alt="">
+         <h3>Depilação</h3>
+         <p>Buço, axila e muito mais</p>
+      </div>
+   </div>
+</section>
+
+<section class="projects" id="projects">
+   <h1 class="heading"> Nossos clientes e profissionais </h1>
+   <div class="box-container">
+      <a href="images/project-1.jpg" class="box">
+         <div class="image">
+            <img src="images/project-1.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>Profissional</h3>
+               <p>Cabelereira e maquiadora</p>
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+      <a href="images/project-2.jpg" class="box">
+         <div class="image">
+            <img src="images/project-2.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>Cliente</h3>
+               <p> Serviço de penteados </p>
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+      <a href="images/project-3.jpg" class="box">
+         <div class="image">
+            <img src="images/project-3.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>Profissional</h3>
+               <p>Lash designer</p>
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+      <a href="images/project-4.jpg" class="box">
+         <div class="image">
+            <img src="images/project-4.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>Cliente </h3>
+               <p>Serviço de extensão de cilios</p>
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+      <a href="images/project-5.jpg" class="box">
+         <div class="image">
+            <img src="images/project-5.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>Profissional</h3>
+               <p>Designer de Sombrancelhas</p>
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+      <a href="images/project-6.jpg" class="box">
+         <div class="image">
+            <img src="images/project-6.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>Cliente</h3>
+               <p>Serviço de Sombrancelhas</p>
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+   </div>
+</section>
+
+<section class="reviews">
+   <h1 class="heading"> Feedbacks </h1>
+   <div class="swiper reviews-slider">
+      <div class="swiper-wrapper">
+         <div class="swiper-slide slide">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis unde suscipit quis consequuntur, tempora corporis ex molestias dignissimos in cumque sunt ducimus voluptate inventore harum earum rem aperiam vel modi?</p>
+            <div class="user">
+               <img src="images/pic-1.png" alt="">
+               <div class="info">
+                  <h3>João Lucas</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="swiper-slide slide">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis unde suscipit quis consequuntur, tempora corporis ex molestias dignissimos in cumque sunt ducimus voluptate inventore harum earum rem aperiam vel modi?</p>
+            <div class="user">
+               <img src="images/pic-2.png" alt="">
+               <div class="info">
+                  <h3>Bruna Silva</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="swiper-slide slide">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis unde suscipit quis consequuntur, tempora corporis ex molestias dignissimos in cumque sunt ducimus voluptate inventore harum earum rem aperiam vel modi?</p>
+            <div class="user">
+               <img src="images/pic-3.png" alt="">
+               <div class="info">
+                  <h3>Leonardo Souza</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="swiper-slide slide">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis unde suscipit quis consequuntur, tempora corporis ex molestias dignissimos in cumque sunt ducimus voluptate inventore harum earum rem aperiam vel modi?</p>
+            <div class="user">
+               <img src="images/pic-4.png" alt="">
+               <div class="info">
+                  <h3>Leticia Vitoria</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="swiper-slide slide">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis unde suscipit quis consequuntur, tempora corporis ex molestias dignissimos in cumque sunt ducimus voluptate inventore harum earum rem aperiam vel modi?</p>
+            <div class="user">
+               <img src="images/pic-5.png" alt="">
+               <div class="info">
+                  <h3>Diego Magdo</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="swiper-slide slide">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis unde suscipit quis consequuntur, tempora corporis ex molestias dignissimos in cumque sunt ducimus voluptate inventore harum earum rem aperiam vel modi?</p>
+            <div class="user">
+               <img src="images/pic-6.png" alt="">
+               <div class="info">
+                  <h3>john deo</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+<section class="pricing" id="pricing">
+   <h1 class="heading"> Nossos Planos </h1>
+   <div class="box-container">
+      <div class="box">
+         <i class="fas fa-home"></i>
+         <h3>Basic</h3>
+         <div class="price"><span>R$</span>250<span>/mês</span></div>
+         <div class="list">
+            <p>Plano de 6 meses</p>
+            <p>Divulgação nas mídias sociais</p>
+            <p>2 modelos de arte para divulgação</p>
+            <p>1 dia de destaque na página inicial</p>
+            <p>Prazo de dois meses para Upgrade</p>
+         </div>
+         <a href="#" class="btn">Escolher plano</a>
+      </div>
+      <div class="box">
+         <i class="fas fa-building"></i>
+         <h3>Standard</h3>
+         <div class="price"><span>R$</span>225<span>/mês</span></div>
+         <div class="list">
+            <p> Plano de 8 meses</p>
+            <p>Alcance do público alvo</p>
+            <p>2 dia de destaque na página inicial</p>
+            <p>Divulgação nas mídias sociais </p>
+            <p>Filtragem de acesso de benefícios</p>
+            <p>Desconto em produtos de salão </p>
+            <P>4 modelos de arte para divulgação</P>           
+         </div>
+         <a href="#" class="btn">Escolher plano</a>
+      </div>
+      <div class="box">
+         <i class="fas fa-city"></i>
+         <h3>Premium</h3>
+         <div class="price"><span>R$</span>190,00<span>/mês</span></div>
+         <div class="list">
+            <p> Plano de 12 meses</p>
+            <p> kit brinde de produtos</p> 
+            <p> Busca de persona </p>
+            <p> Curso profissionalizante </p> 
+            <p> Cursos profissionais de mão de obra </p>
+            <p> Desconto em produtos de salão </p>
+            <p> Divulgação nas mídias sociais</p>
+            <p> Filtragem de acesso de benefícios</p>
+            <p> 6 modelos de arte para divulgação </p>
+            <p> 4 dia de destaque na página inicial</p>
+            <p> Visibilidade na busca de pesquisa de serviços </p>
+         </div>
+         <a href="#" class="btn">Escolher plano</a>
+      </div>
+   </div>
+</section>
+
+<section class="contact" id="contact">
+   <h1 class="heading"> Contato </h1>
+   <div class="row">
+      <iframe class="map" src="https://www.google.com/maps/place/Minas+Gerais/@-18.5779679,-45.4514553,6z/data=!3m1!4b1!4m6!3m5!1s0xa690a165324289:0x112170c9379de7b3!8m2!3d-17.930178!4d-43.7908453!16zL20vMDFnaDZ6" allowfullscreen="" loading="lazy"></iframe>
+      <form action="">
+         <h3>Cadastro</h3>
+         <input type="text" placeholder="nome" class="box">
+         <input type="email" placeholder="email" class="box">
+         <input type="number" placeholder="telefone" class="box">
+      </form>
+   </div>
+</section>
+
+<section class="blogs" id="blogs">
+   <h1 class="heading"> Nosso Instagram </h1>
+   <div class="swiper blogs-slider">
+      <div class="swiper-wrapper">
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>Quer praticidade?</h3>
+               <p>Com a YourBeauty você tem atendimento de qualidade podendo ser agendado na palma da mão!</p>
+               <a href="#" class="btn">Saiba mais</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-2.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>Comece a semana bem!</h3>
+               <p> Tenha energia para a semana com uma massagem relaxante! Cadastre-se e agende seu horário.</p>
+               <a href="#" class="btn">Saiba mais</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-3.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>Está sem tempo?</h3>
+               <p>A YourBeauty foi criada para atender você na correria do dia a dia para atender as suas necessidades</p>
+               <a href="#" class="btn">Saiba mais</a>
+            </div>
+         </div>
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-4.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>Estética e cuidados</h3>
+               <p>Agende um horário para você receber o melhor profissional com um atendimento na área da beleza</p>
+               <a href="#" class="btn">Saiba mais</a>
+            </div>
+         </div>
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-5.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>Dias das mulheres</h3>
+               <p>A YourBeauty deseja para todas as guerreiras um Feliz dia das mulheres!</p>
+               <a href="#" class="btn">Saiba mais</a>
+            </div>
+         </div>
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-6.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>Seja um profissional</h3>
+               <p>Seja um credenciado da plataforma e aumente sua cartela de clientes e seja reconhecido por todo território nacional</p>
+               <a href="#" class="btn">Saiba mais</a>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+<section class="logo-container">
+   <div class="swiper logo-slider">
+      <div class="swiper-wrapper">
+         <div class="swiper-slide slide"><img src="images/client-logo-1.png" alt=""></div>
+         <div class="swiper-slide slide"><img src="images/client-logo-2.png" alt=""></div>
+         <div class="swiper-slide slide"><img src="images/client-logo-3.png" alt=""></div>
+         <div class="swiper-slide slide"><img src="images/client-logo-4.png" alt=""></div>
+         <div class="swiper-slide slide"><img src="images/client-logo-5.png" alt=""></div>
+         <div class="swiper-slide slide"><img src="images/client-logo-6.png" alt=""></div>
+      </div>
+   </div>
+</section>
+
+<section class="footer">
+   <div class="links">
+      <a class="btn" href="#home">Inicio</a>
+      <a class="btn" href="#about">Sobre Nós</a>
+      <a class="btn" href="#services">Serviços</a>
+      <a class="btn" href="#projects">Catálogo</a>
+      <a class="btn" href="#pricing">Planos</a>
+      <a class="btn" href="#contact">Cadastro</a>
+      <a class="btn" href="#blogs">Instagram</a>
+   </div>
+   <div class="credit"> Criado por <span>Marcella Cardoso</span> | Todos os direitos reservados </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+<script>
+lightGallery(document.querySelector('.projects .box-container'));
+</script>
+
+</body>
+</html>

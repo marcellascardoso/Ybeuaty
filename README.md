@@ -5,14 +5,10 @@ A necessidade de serviços de beleza imediata e flexível na correrua do dia a d
 ## Objetivo
 A plataforma é concebida como uma solução tecnológica, que conecta os clientes a uma variedade de serviços de beleza personalizados de maneira instantânea e conveniente.
 ## Funcionalidades Principais
-<b> Acesso Global:</b> A plataforma pode ser acessada de qualquer lugar do mundo, permitindo que os clientes encontrem profissionais independentemente da localização.
-
-<b> Agendamento Flexível:</b> Os usuários podem agendar serviços de beleza de acordo com sua conveniência, eliminando a pressão do tempo.
-
-<b> Profissionais Qualificados:</b> A plataforma reúne profissionais experientes e atualizados com as tendências do setor.
-
-<b> Interface Intuitiva:</b> Uma interface amigável garante que os clientes possam navegar e agendar serviços de forma simples e direta.
-
+- <b> Acesso Global:</b> A plataforma pode ser acessada de qualquer lugar do mundo, permitindo que os clientes encontrem profissionais independentemente da localização.
+- <b> Agendamento Flexível:</b> Os usuários podem agendar serviços de beleza de acordo com sua conveniência, eliminando a pressão do tempo.
+- <b> Profissionais Qualificados:</b> A plataforma reúne profissionais experientes e atualizados com as tendências do setor.
+- <b> Interface Intuitiva:</b> Uma interface amigável garante que os clientes possam navegar e agendar serviços de forma simples e direta.
 <b> Serviços Personalizados:</b> Os serviços oferecidos são adaptados às necessidades e necessidades individuais de cada cliente.
 ## Tópicos Relacionados: 
 Beleza, Tecnologia, Plataforma Online, Serviços de Beleza, Agendamento, Profissionais Qualificados.

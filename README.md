@@ -37,7 +37,7 @@ O desenvolvimento do software da Your Beauty é limitado por requisitos legais, 
 ## I. Descrição da Informação
 
 Interface do Sistema
-![Captura de Tela (24)](https://github.com/marcellacardosos/Ybeuaty/assets/112902221/3e517ec0-86ec-4ace-973d-957777d97510)
+![Captura de Tela (24)](https://github.com/marcellacardosos/Ybeuaty/assets/112902221/bebe35e8-f019-4595-bd90-31f249f9419e)
 
 1. **Representação do Fluxo de Informação:**
 

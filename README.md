@@ -1,10 +1,10 @@
-Informações do Projeto
+![image](https://github.com/marcellacardosos/Ybeuaty/assets/112902221/676e4efb-2bad-486f-9315-6356c93e6086)Informações do Projeto
 
-**Integrantes**
+## Integrantes
 
 Marcella Cardoso
 
-**Estrutura do Documento**
+## Estrutura do Documento
 
 1. **Introdução**
 
@@ -30,13 +30,14 @@ III. **Justificativa**
 
 A Your Beauty não é apenas uma plataforma de serviços de beleza; é uma revolução nos cuidados estéticos, adaptando-se perfeitamente à vida moderna e agitada. Este projeto busca transformar os cuidados estéticos em momentos personalizados e acessíveis, proporcionando uma experiência única para cada cliente.
 
-1. **Restrições de projeto do software**
+## Restrições de projeto do software
 
 O desenvolvimento do software da Your Beauty é limitado por requisitos legais, padrões de segurança cibernética e diretrizes específicas para garantir a privacidade e segurança dos dados dos usuários.
 
-I. Descrição da Informação
+## I. Descrição da Informação
 
 Interface do Sistema
+![Captura de Tela (24)](https://github.com/marcellacardosos/Ybeuaty/assets/112902221/3e517ec0-86ec-4ace-973d-957777d97510)
 
 1. **Representação do Fluxo de Informação:**
 
@@ -52,11 +53,11 @@ O fluxo de controle inicia-se com a solicitação de serviços pelos usuários, 
 
 O conteúdo de informação na Your Beauty é organizado de maneira a oferecer uma experiência personalizada aos usuários. As preferências, como tipo de serviço, profissional preferido e horários de disponibilidade, são categorizadas e armazenadas de forma centralizada. Além disso, o histórico de serviços anteriores é registrado para fornecer recomendações e personalizações mais eficazes. Essas informações são apresentadas de maneira clara e acessível na interface do usuário, permitindo uma fácil compreensão e atualização por parte dos clientes.
 
-**Descrição da Interface com o Sistema:**
+## II. Descrição da Interface com o Sistema:
 
 A interface do site da Your Beauty foi projetada para proporcionar uma interação intuitiva e eficiente entre os usuários e a plataforma. O processo de agendamento é simplificado, permitindo que os usuários naveguem facilmente pelas opções de serviços, escolham profissionais qualificados e definam suas preferências. Durante o agendamento, a interface oferece recursos de personalização, permitindo que os usuários comuniquem especificidades importantes para o serviço. Além disso, a interface é projetada para ser responsiva, garantindo uma experiência consistente em diferentes dispositivos e tamanhos de tela.
 
-**III. Descrição Funcional:**
+## III. Descrição Funcional:
 
 **Divisão Funcional em Partições:**
 
@@ -84,7 +85,7 @@ b. **Restrições de Projeto:**
 
 Para garantir a segurança e integridade do sistema, existem restrições de projeto específicas relacionadas ao controle. Isso inclui requisitos de autenticação segura para usuários e profissionais, garantindo que apenas usuários autorizados possam acessar informações sensíveis e realizar ações críticas no sistema.
 
-**IV. Descrição Comportamental:**
+## IV. Descrição Comportamental:**
 
 **Estados do Sistema:**
 
@@ -94,7 +95,7 @@ O sistema da Your Beauty pode assumir diferentes estados durante o ciclo de serv
 
 Diversos eventos desencadeiam ações específicas no sistema. Por exemplo, um "Agendamento Confirmado" resultará na notificação ao usuário e ao profissional envolvido. Ações correspondentes incluem a atualização do status do serviço e a geração de recibos para referência futura. Essa abordagem garante que os usuários e profissionais estejam sempre informados sobre o progresso dos serviços.
 
-**V. Critérios de Validação:**
+## V. Critérios de Validação:
 
 **Limites de Desempenho:**
 
@@ -108,11 +109,11 @@ As classes de testes agrupam diferentes cenários de teste, como usabilidade, se
 
 A reação esperada do software é cuidadosamente descrita para vários cenários, como confirmação de agendamento e tratamento de feedback. Isso inclui notificações rápidas, atualizações em tempo real e interfaces de usuário intuitivas que proporcionam uma experiência fluida.
 
-**Considerações Especiais:**
+## Considerações Especiais:
 
 Considerações especiais abrangem condições excepcionais, como procedimentos em caso de falhas no sistema. Planos de contingência e processos de recuperação são delineados para garantir a robustez e confiabilidade contínuas do sistema, mesmo diante de situações imprevistas. ****
 
-**Considerações especiais**
+## Considerações especiais
 1. Bibliografia
 ***Sistemas operacionais*** modernos / Andrew S. ***Tanenbaum***, Herbert. Bos; tradução Jorge Ritter; revisão técnica Raphael Y. de Camargo. –. 4. ed.
 https://booksy.com/pt-br/

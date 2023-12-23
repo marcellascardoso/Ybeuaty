@@ -1,4 +1,4 @@
-![image](https://github.com/marcellacardosos/Ybeuaty/assets/112902221/676e4efb-2bad-486f-9315-6356c93e6086)Informações do Projeto
+Informações do Projeto
 
 ## Integrantes
 

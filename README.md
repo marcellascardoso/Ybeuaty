@@ -85,7 +85,7 @@ b. **Restrições de Projeto:**
 
 Para garantir a segurança e integridade do sistema, existem restrições de projeto específicas relacionadas ao controle. Isso inclui requisitos de autenticação segura para usuários e profissionais, garantindo que apenas usuários autorizados possam acessar informações sensíveis e realizar ações críticas no sistema.
 
-## IV. Descrição Comportamental:**
+## IV. Descrição Comportamental:
 
 **Estados do Sistema:**
 
@@ -111,7 +111,7 @@ A reação esperada do software é cuidadosamente descrita para vários cenário
 
 ## Considerações Especiais:
 
-Considerações especiais abrangem condições excepcionais, como procedimentos em caso de falhas no sistema. Planos de contingência e processos de recuperação são delineados para garantir a robustez e confiabilidade contínuas do sistema, mesmo diante de situações imprevistas. ****
+Considerações especiais abrangem condições excepcionais, como procedimentos em caso de falhas no sistema. Planos de contingência e processos de recuperação são delineados para garantir a robustez e confiabilidade contínuas do sistema, mesmo diante de situações imprevistas. 
 
 ## Considerações especiais
 1. Bibliografia

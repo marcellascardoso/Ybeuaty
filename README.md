@@ -1,31 +1,32 @@
 # Your Beauty
 
-## Objetivo
+## Objective
 
-**Your Beauty** é um site intuitivo desenvolvido para simplificar o acesso a serviços de beleza personalizados. Nosso objetivo é oferecer uma plataforma onde os usuários possam explorar facilmente uma variedade de serviços de beleza e personalizá-los de acordo com suas preferências individuais.
+**Your Beauty** is an intuitive website designed to simplify access to personalized beauty services. Our goal is to provide a platform where users can easily explore a variety of beauty services and customize them according to their individual preferences.
 
-## Funcionalidades Principais
+## Key Features
 
-- **Exploração de Serviços:** Navegue pelos serviços oferecidos de maneira clara e detalhada, facilitando a escolha conforme suas necessidades específicas.
+- **Service Exploration:** Browse offered services clearly and in detail, facilitating selection based on specific needs.
   
-- **Personalização:** Oferecemos a capacidade de personalizar os serviços selecionados, permitindo que os usuários ajustem detalhes como tipo de serviço, preferências de profissional e horários disponíveis.
+- **Customization:** Ability to personalize selected services, allowing users to adjust details such as service type, preferred professionals, and available times.
 
-- **Facilidade de Uso:** Interface intuitiva projetada para proporcionar uma experiência de usuário sem complicações, desde a navegação até o agendamento dos serviços desejados.
+- **User-Friendly:** Intuitive interface designed to deliver a seamless user experience, from navigation to scheduling desired services.
 
-- **Transparência e Credibilidade:** Apresentamos informações detalhadas sobre cada serviço, incluindo descrições, benefícios e preços, para garantir que os usuários tomem decisões informadas.
+- **Transparency and Credibility:** Provide detailed information on each service, including descriptions, benefits, and prices, ensuring informed decision-making for users.
 
-## Linguagens Utilizadas
+## Languages Used
 
-O projeto foi implementado utilizando as seguintes linguagens e tecnologias:
+The project has been implemented using the following languages and technologies:
 
-- **JavaScript:** Para a lógica de frontend e interações dinâmicas na interface do usuário.
-- **HTML:** Para estruturação e marcação dos elementos na página web.
-- **CSS:** Para estilização e design visual, garantindo uma apresentação atraente e coesa.
+- **JavaScript:** For frontend logic and dynamic user interface interactions.
+- **HTML:** For structuring and marking up elements on the web page.
+- **CSS:** For styling and visual design, ensuring an attractive and cohesive presentation.
 
-## Licença
+## License
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
-## Contato
+## Contact
 
-Para mais informações ou sugestões, entre em contato pelo e-mail: marcellasantoscardoso@gmail.com
+For more information or suggestions, please contact us at: marcellasantoscardoso@gmail.com
+
